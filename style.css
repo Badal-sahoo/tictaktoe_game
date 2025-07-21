@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #013f66;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: 30vw;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 10em;
+
+}
+
+.button {
+    width: 30%;
+    height: 30%;
+    background-color: #2f9793;
+    font-size: 6em;
+    color: #B8E2C8;
+}
+
+.wintemp {
+    width: 50vw;
+    height: 20vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    position: absolute;
+    top: 5em;
+    color: aliceblue;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.wintemp p{
+    background-color: transparent;
+    -webkit-text-stroke: #013f66;
+    -webkit-text-stroke-width: 2px;
+    font-weight: 600;
+}
+.playagain {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.reset{
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    font-size: 1.5em;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    position: absolute;
+    top: 4em;
+}
